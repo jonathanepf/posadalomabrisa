@@ -54,6 +54,8 @@ p{
 .fixed-top{
   background-color: #5B89A6;
 }
+
+
 /**end of navbar height changes**/
 
 
@@ -336,7 +338,7 @@ p{
   }
 
   #contact-instagram{
-    margin-top: 5%;
+    margin-top: 10%;
     border: 8px solid #5B89A6;
   }
 
