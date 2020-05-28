@@ -18,7 +18,7 @@ p{
   font-weight: 300;
 }
 
-/* navbar */
+ /****************************** navbar  ******************************/
 /**this is required to make the navbar taller than what it originally is**/
 
 .navbar-dark .navbar-nav .nav-link{
@@ -26,8 +26,10 @@ p{
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-  background-color: #2b580c;
+  background-color: #BFCAD9;
+  color: #000000;
 }
+
 
 @media (max-width: 860px){
   .navbar-dark .navbar-nav .nav-link{
@@ -54,13 +56,13 @@ p{
 }
 
 .fixed-top{
-  background-color: #2b580c;
+  background-color: #5B89A6;
 }
-
-
 /**end of navbar height changes**/
 
 
+
+/****************************** INDEX FILE  ******************************/
 /* DESCRIPTION SECTION */
 
 .home-desc{
@@ -69,8 +71,9 @@ p{
   /* background-image: url("../images/cover/cover1.jpg"); */
   /* background-image: url("../images/cover/cover2.png"); */
   /* background-image: url("../images/cover/cover3.jpg"); */
-  background-image: url("../images/cover/cover4.JPG"); /* mi favorita*/
+  /* background-image: url("../images/cover/cover4.JPG"); /* mi favorita*/
   /* background-image: url("../images/cover/example_cover.jpeg"); Example*/
+  background-image: url("../images/about-us-cover/cover4.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -82,7 +85,6 @@ p{
 }
 
 .wrapper-desc{
-  vertical-align: middle;
   text-align: center;
   color: white;
 }
@@ -135,7 +137,7 @@ p{
 .features-img{
   width: 100%;
   height: 240px;
-  border-color: #2b580c;
+  border-color: #5B89A6;
   border-style: solid;
   border-width: 8px;
 }
@@ -157,7 +159,7 @@ p{
 /* REVIEWS SECTION */
 
 #reviews {
-  background-color: #2b580c;
+  background-color: #5B89A6;
   text-align: center;
   vertical-align: middle;
   padding: 5% 10%;
@@ -196,7 +198,7 @@ p{
 }
 
 
-/* contact-us */
+/* CONTACT-US SECTION */
 #contact-us{
   text-align: center;
   vertical-align: middle;
@@ -227,9 +229,9 @@ p{
 #contact-info-title{
   height: 300px;
   background-color: #dae1e7;
-  border-right: 8px solid #2b580c;
-  border-left: 8px solid #2b580c;
-  border-bottom: 8px solid #2b580c;
+  border-right: 8px solid #5B89A6;
+  border-left: 8px solid #5B89A6;
+  border-bottom: 8px solid #5B89A6;
   text-align: left;
   vertical-align: top;
 }
@@ -237,9 +239,9 @@ p{
 #contact-instagram{
   height: 500px;
   background-color: #dae1e7;
-  border-right: 8px solid #2b580c;
-  border-left: 8px solid #2b580c;
-  border-bottom: 8px solid #2b580c;
+  border-right: 8px solid #5B89A6;
+  border-left: 8px solid #5B89A6;
+  border-bottom: 8px solid #5B89A6;
 }
 
 .contact-us{
@@ -259,20 +261,6 @@ p{
   font-size: 1.2rem;
   letter-spacing: 1px;
   padding-left: 5%;
-}
-
-
-/* footer */
-.social-icon {
-  margin: 20px 10px;
-  color: #696969;
-}
-
-.footer-style{
-  background-color: #fff;
-  padding: 3% 5%;
-  text-align: center;
-  font-family: "Jost";
 }
 
 
@@ -341,7 +329,7 @@ p{
 
   #contact-instagram{
     margin-top: 10%;
-    border: 8px solid #2b580c;
+    border: 8px solid #5B89A6;
   }
 
   .contact-us{
@@ -374,4 +362,147 @@ p{
     width: 100px;
     border-radius: 100%;
   }
+}
+
+
+
+/****************************** ABOUT US FILE ******************************/
+/* Cover */
+
+#about-us-cover .home-desc{
+  /* background-image: url("../images/about-us-cover/cover1.jpg"); */
+  /* background-image: url("../images/about-us-cover/cover2.jpg"); */
+  /* background-image: url("../images/about-us-cover/cover3.jpeg"); */
+  /* background-image: url("../images/about-us-cover/cover4.png"); */
+  background-image: url("../images/cover/cover4.JPG"); /* mi favorita*/
+}
+
+/* Our Story */
+
+#about-us-description{
+  text-align: center;
+  padding: 5% 10%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.about-us-description-blocks{
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about-us-img{
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}
+
+.about-us-family-img{
+  float: left;
+  margin: 3% 5% 3% 0;
+}
+
+.about-us-posada-img{
+  float: right;
+  margin: 3% 0 3% 5%;
+}
+
+.about-us-text{
+  text-align: left;
+  font-family: "Jost";
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.about-us-sub-title{
+  font-size: 2rem;
+  font-family: "Jost";
+  letter-spacing: 4px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#about-us-journey-title{
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 770px) {
+  .about-us-text{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+
+  .about-us-family-img{
+    float: none;
+    margin: 3% 0 5% 0;
+  }
+
+  .about-us-posada-img{
+    float: none;
+    margin: 3% 0 3% 0;
+  }
+
+  .about-us-sub-title{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+  }
+}
+
+/* Call to action */
+#about-us-cta{
+  height: 600px;
+  background-color: #5B89A6;
+  text-align: center;
+  background-image: url("../images/about-us-contact/contact.png");
+  /* background-image: url("../images/about-us-contact/contact2.jpg"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: #fff;
+
+
+  /* HOW TO ALIGN A DIV TO CENTER VERTICALLY */
+  display: flex;
+  align-items: center;
+}
+
+#about-us-cta .features-title{
+  color:white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.btn{
+  background-color: #5B89A6;
+  border-color: #5B89A6;
+  color: #ffffff;
+  width: 200px;
+}
+
+.btn:hover{
+  background-color: #BFCAD9;
+  border-color: #BFCAD9;
+  color: #000000;
+}
+
+.about-us-cta-wrapper{
+  text-align: center;
+  vertical-align: middle;
+}
+
+/****************************** footer ******************************/
+.social-icon {
+  margin: 20px 10px;
+  color: #696969;
+}
+
+.footer-style{
+  background-color: #fff;
+  padding: 3% 5%;
+  text-align: center;
+  font-family: "Jost";
 }
