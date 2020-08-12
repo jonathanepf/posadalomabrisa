@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
+    <title>Posada Loma Brisa</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Bootstrap scripts -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- reference to my style.css-->
+      <link rel="stylesheet" href="CSS/styles.css">
+
+    <!-- Google Fonts - change it to apply your new fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Jost:wght@200;400;600;800&family=Montserrat:wght@200;400;600;800&family=Prata&family=Raleway:wght@300;600;800&family=Taviraj:wght@200;300;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Script - only if you need it -->
+      <script src="https://kit.fontawesome.com/e3e0e7bdb1.js" crossorigin="anonymous"></script>
+
+    <!-- Java Scripts -->
+
+  </head>
+
+  <body>
+
+    <section id="title">
+      <div class="fixed-top">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand" href="#title">LOGO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menubar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menubar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#title">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">Nuestra Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Habitaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Instalaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+    </section>
+
+    <section class="contact-form-section mb-4">
+      <h1 id="contact-form-title">Ponte en contacto con nosotros</h1>
+      <div class="row">
+              <!--Grid column-->
+              <div class="col-md-9 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                      <!--Grid row-->
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  <label for="name" class="">Nombre</label>
+                              </div>
+                          </div>
+                          <!--Grid column-->
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  <label for="email" class="">Email</label>
+                              </div>
+                          </div>
+                          <!--Grid column-->
+
+                      </div>
+                      <!--Grid row-->
+
+                      <!--Grid row-->
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="phone" name="phone" class="form-control">
+                                  <label for="phone" class="">Telefono</label>
+                              </div>
+                          </div>
+                      </div>
+                      <!--Grid row-->
+
+                      <!--Grid row-->
+                      <div class="row">
+
+                          <!--Grid column-->
+                          <div class="col-md-12">
+
+                              <div class="md-form">
+                                  <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea"></textarea>
+                                  <label for="message">Tu mensaje</label>
+                              </div>
+
+                          </div>
+                      </div>
+                      <!--Grid row-->
+
+                  </form>
+
+                  <div class="text-center text-md-left">
+                      <a class="btn btn-primary contact-form-button" onclick="document.getElementById('contact-form').submit();">Send</a>
+                  </div>
+                  <div class="status"></div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-3 text-center">
+                  <ul class="list-unstyled mb-0">
+                      <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                          <p>La Victoria, Maracay, Venezuela</p>
+                      </li>
+
+                      <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                          <p>+58 414 269 56 29</p>
+                      </li>
+
+                      <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                          <p>posadalomabrisa@gmail.com</p>
+                      </li>
+                  </ul>
+              </div>
+              <!--Grid column-->
+
+          </div>
+    </section>
+
+  </body>
+
+  <footer>
+    <div class="footer-style">
+        <a href="https://www.facebook.com/posadalomabrisa/" target="_blank"><i class="social-icon fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/posadalomabrisa?lang=en" target="_blank"><i class="social-icon fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/posadalomabrisa/?hl=en" target="_blank"><i class="social-icon fab fa-instagram"></i></a>
+        <a href="mailto: posadalomabrisa@gmail.com" target="_blank"><i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2020 Posada Loma Brisa</p>
+    </div>
+  </footer>
+</html>
