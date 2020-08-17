@@ -74,11 +74,6 @@ label{
 .home-desc{
   width: 100%;
   height:620px;
-  /* background-image: url("../images/cover/cover1.jpg"); */
-  /* background-image: url("../images/cover/cover2.png"); */
-  /* background-image: url("../images/cover/cover3.jpg"); */
-  /* background-image: url("../images/cover/cover4.JPG"); /* mi favorita*/
-  /* background-image: url("../images/cover/example_cover.jpeg"); Example*/
   background-image: url("../images/about-us-cover/cover4.png");
   background-position: center center;
   background-repeat: no-repeat;
@@ -211,13 +206,7 @@ label{
 }
 
 .contact-form{
-  /* position: relative; */
-  /* background-image: url("../images/contact/contact1.jpg"); */
-  /* background-image: url("../images/contact/contact2.jpg"); */
-  /* MIS FAVORITAS -- 3,4, Y 5  */
   background-image: url("../images/contact/contact3.jpg");
-  /* background-image: url("../images/contact/contact4.jpg"); */
-  /* background-image: url("../images/contact/contact5.jpg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -379,11 +368,11 @@ label{
 /* Cover */
 
 #about-us-cover .home-desc{
-  /* background-image: url("../images/about-us-cover/cover1.jpg"); */
-  /* background-image: url("../images/about-us-cover/cover2.jpg"); */
-  /* background-image: url("../images/about-us-cover/cover3.jpeg"); */
-  /* background-image: url("../images/about-us-cover/cover4.png"); */
-  background-image: url("../images/cover/cover4.JPG"); /* mi favorita*/
+  background-image: url("../images/cover/cover4.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
 }
 
 /* Our Story */
@@ -467,13 +456,11 @@ label{
   background-color: #5B89A6;
   text-align: center;
   background-image: url("../images/about-us-contact/contact.png");
-  /* background-image: url("../images/about-us-contact/contact2.jpg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
   background-color: #fff;
-
 
   /* HOW TO ALIGN A DIV TO CENTER VERTICALLY */
   display: flex;
@@ -509,7 +496,11 @@ label{
 /****************************** ROOMS FILE ******************************/
 /* Cover */
 #rooms-cover .home-desc{
-  background-image: url("../images/rooms/description/rooms2.jpg"); /* mi favorita*/
+  background-image: url("../images/rooms/description/rooms2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
 }
 
 /* Rooms descriptions */
