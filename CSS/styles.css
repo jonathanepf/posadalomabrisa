@@ -625,8 +625,19 @@ p.amenities-desc{
 
 /****************************** events ******************************/
 /*Events cover section*/
-#events-cover .home-desc{
+.events-desc{
+  width: 100%;
+  height:620px;
   background-image: url("../images/events/cover/cover3.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
 }
 
 .events-title{
