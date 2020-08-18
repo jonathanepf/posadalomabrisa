@@ -423,7 +423,7 @@ label{
   padding-bottom: 3%;
 }
 
-#about-us-journey-title{
+.about-us-journey-title{
   padding-top: 5%;
   padding-bottom: 2%;
 }
@@ -497,10 +497,6 @@ label{
 /* Cover */
 #rooms-cover .home-desc{
   background-image: url("../images/rooms/description/rooms2.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size:cover;
 }
 
 /* Rooms descriptions */
@@ -520,7 +516,7 @@ label{
 #rooms{
   text-align: center;
   vertical-align: middle;
-  padding: 5% 5% 0 5%;
+  padding: 5% 10% 0 10%;
   /* padding: 100px; */
 }
 
@@ -627,6 +623,25 @@ p.amenities-desc{
   }
 }
 
+/****************************** events ******************************/
+/*Events cover section*/
+#events-cover .home-desc{
+  background-image: url("../images/events/cover/cover3.jpg");
+}
+
+.events-title{
+  padding-top: 5%;
+}
+
+.events-contact-form{
+  background-image: url("../images/events/contact-form/contact4.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: #fff;
+  min-height: 600px;
+}
 
 /****************************** contact-form ******************************/
 .contact-form-section{
