@@ -74,7 +74,7 @@ label{
 .home-desc{
   width: 100%;
   height:620px;
-  background-image: url("../images/about-us-cover/cover4.png");
+  background-image: url("../images/1. index/1. cover/1. cover-web.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -206,7 +206,7 @@ label{
 }
 
 .contact-form{
-  background-image: url("../images/contact/contact3.jpg");
+  background-image: url("../images/1. index/3. contact/1. contact-web.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -368,7 +368,7 @@ label{
 /* Cover */
 
 #about-us-cover .home-desc{
-  background-image: url("../images/cover/cover4.JPG");
+  background-image: url("../images/2. about-us/1. cover/1. cover-web.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -455,7 +455,7 @@ label{
   height: 600px;
   background-color: #5B89A6;
   text-align: center;
-  background-image: url("../images/about-us-contact/contact.png");
+  background-image: url("../images/2. about-us/3. contact/1. contact.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -496,7 +496,7 @@ label{
 /****************************** ROOMS FILE ******************************/
 /* Cover */
 #rooms-cover .home-desc{
-  background-image: url("../images/rooms/description/rooms2.jpg");
+  background-image: url("../images/3. rooms-amenities/1. cover/1. cover-web.jpg");
 }
 
 /* Rooms descriptions */
@@ -541,7 +541,7 @@ label{
 
 /* Rooms-Contact Info */
 .rooms-contact-form{
-  background-image: url("../images/rooms/description/rooms1.JPG"); /* mi favorita*/
+  background-image: url("../images/3. rooms-amenities/3. contact/1. contact-web.jpg"); /* mi favorita*/
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -628,7 +628,7 @@ p.amenities-desc{
 .events-desc{
   width: 100%;
   height:620px;
-  background-image: url("../images/events/cover/cover3.jpg");
+  background-image: url("../images/4. events/1. cover/1. cover-web.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -645,7 +645,7 @@ p.amenities-desc{
 }
 
 .events-contact-form{
-  background-image: url("../images/events/contact-form/contact4.jpg");
+  background-image: url("../images/4. events/3. contact/1. contact-web.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
